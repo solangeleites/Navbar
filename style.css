@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Nixie+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fea5d9;
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
+    font-size:x-large;
+}
+
+.img {
+    height: 125px;
+    border-radius: 100px;
+}
+
+.header {
+    background: #4c96d7;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    gap: 10px;
+    color: white;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
